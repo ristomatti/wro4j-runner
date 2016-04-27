@@ -4,14 +4,14 @@
     <parent>
         <groupId>ro.isdc.wro4j</groupId>
         <artifactId>wro4j-parent</artifactId>
-        <version>1.8.0</version>
+        <version>1.8.1-SNAPSHOT</version>
     </parent>
     <artifactId>wro4j-runner</artifactId>
-    <version>1.8.0</version>
+    <version>1.8.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>wro4j runner</name>
     <properties>
-	   <wro4j.version>1.8.0</wro4j.version>
+	   <wro4j.version>1.8.1-SNAPSHOT</wro4j.version>
        <wro4j.runner.mainClass>ro.isdc.wro.runner.Wro4jCommandLineRunner</wro4j.runner.mainClass>
     </properties>
     <dependencies>
@@ -92,7 +92,6 @@
         <dependency>
             <groupId>com.github.sommeri</groupId>
             <artifactId>less4j</artifactId>
-            <version>1.17.2</version>
         </dependency>
     </dependencies>
     <build>
